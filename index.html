@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Diameter Lingkaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Hitung Keliling Lingkaran</h1>
+            <p>Rumus = 2 x π x r</p>
+            <label for="radiusKeliling">Masukkan Jari-jari :</label>
+            <input type="number" id="radiusKeliling" placeholder="Jari-jari" class="form" />
+            <button onclick="calculateKeliling()">Hitung Keliling</button>
+            <p id="resultKeliling"></p>
+        </div>
+
+        <div class="section">
+            <h1>Hitung Diameter Lingkaran</h1>
+            <p>Rumus = 2 x r</p>
+            <label for="radiusDiameter">Masukan Jari-jari :</label>
+            <input type="number" id="radiusDiameter" placeholder="Jari-jari" class="form" />
+            <button onclick="calculateDiameter()">Hitung Diameter</button>
+            <p id="resultDiameter"></p>
+        </div>
+
+        <div class="section">
+            <h1>Hitung Luas</h1>
+            <p>Rumus : π x r²</p>
+            <label for="radiusLuas">Masukan Jari-jari :</label>
+            <input type="number" id="radiusLuas" placeholder="Jari-jari" class="form" />
+            <button onclick="calculateLuas()">Hitung Luas</button>
+            <p id="resultLuas"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
